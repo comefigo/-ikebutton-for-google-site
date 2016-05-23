@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Like Button" />
+    <Content type="html">
+        <![CDATA[
+            <head>
+                <link rel="stylesheet" href="google siteのベースURL/bootstrap.min.css"></link>
+                <script src="google siteのベースURL/jquery-2.2.4.min.js"></script>
+                <script src="google siteのベースURL/likebutton.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        likeButton.getLikeCount('key2');
+                    });
+                </script>
+            </head>
+            <body>
+                <button type="button" class="key12 btn btn-primary btn-sm" onclick="likeButton.click(this, 'key2');">
+                    <img src="google siteのベースURL /thumbs-up.png" alt="like" class="like-icon" height="16px" width="16px" /> いいね！ <span class="count"></span>
+                </button>
+            </body>
+        ]]>
+    </Content>
+</Module>
