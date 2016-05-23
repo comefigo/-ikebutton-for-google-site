@@ -14,7 +14,7 @@
                 </script>
             </head>
             <body>
-                <button type="button" class="key1 btn btn-primary btn-sm" onclick="likeButton.click(this, 'key1');">
+                <button type="button" class="key1 btn btn-primary btn-sm" onclick="likeButton.click('key1');">
                     <img src="google siteのベースURL /thumbs-up.png" alt="like" class="like-icon" height="16px" width="16px" /> いいね！ <span class="count"></span>
                 </button>
             </body>

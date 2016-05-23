@@ -6,7 +6,7 @@ var likeButton = (function() {
 
     var _APPURL = 'GASのウエブアプリケーションのURL';
 
-    function _click(ele, key) {
+    function _click(key) {
         _connection('POST', key);
     }
 
